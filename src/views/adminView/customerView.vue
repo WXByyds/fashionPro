@@ -103,6 +103,8 @@ const isSelectFile = ref(false)
 
 const addImgURL = ref('')
 const editImgUrl = ref('')
+const test = 1
+console.log(test)
 
 const onAddSelectFile = (uploadFile) => {
   addImgURL.value = URL.createObjectURL(uploadFile.raw)
