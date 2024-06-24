@@ -103,7 +103,7 @@ const isSelectFile = ref(false)
 
 const addImgURL = ref('')
 const editImgUrl = ref('')
-const test = 1
+const test = 2
 console.log(test)
 
 const onAddSelectFile = (uploadFile) => {
